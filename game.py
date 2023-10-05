@@ -25,4 +25,7 @@ def play_game():
                 current_room = next_room
             else:
                 print("You can't go that way.")
+        else:
+            print("Invalid input. Please enter a valid direction.")
+
 
