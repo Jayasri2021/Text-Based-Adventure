@@ -9,4 +9,8 @@ def play_game():
     print("Welcome to the Text-Based Adventure Game!")
     print("Type 'q' to quit.")
 
-    
+    while True:
+        print("\n" + current_room.name)
+        print(current_room.description)
+        
+
