@@ -13,4 +13,9 @@ def play_game():
         print("\n" + current_room.name)
         print(current_room.description)
         
+        user_input = input("Where do you want to go? (north, south, east, west): ").lower()
+        
+        if user_input == 'q':
+            print("Thanks for playing!")
+            break
 
