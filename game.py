@@ -6,3 +6,7 @@ def play_game():
 
     current_room = room1
 
+    print("Welcome to the Text-Based Adventure Game!")
+    print("Type 'q' to quit.")
+
+    
