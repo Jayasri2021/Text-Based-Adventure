@@ -19,3 +19,10 @@ def play_game():
             print("Thanks for playing!")
             break
 
+        if user_input in ['north', 'south', 'east', 'west']:
+            next_room = getattr(current_room, user_input)
+            if next_room:
+                current_room = next_room
+            else:
+                print("You can't go that way.")
+
